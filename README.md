@@ -2,6 +2,7 @@
 Using lambda to restart services at unhealthy EC2 instances via SNS and SSM. Lambda function will automatically search for all unhealthy EC2 instances in the Target group reported by SNS and CloudWatch Alarm. Lambda will send commands by using the Documents at SSM to restart services at unhealthy instances.
 
 References:
+
 https://medium.com/@simonrand_43344/using-aws-simple-systems-manager-and-lambda-to-replace-cron-in-an-ec2-auto-scaling-group-939d114ec9d7
 
 https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS.html
